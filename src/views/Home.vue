@@ -1,10 +1,27 @@
 <template>
   <div class="home">
-    <nav id="navbar">
+    <div id="navbar">
+      <div class="nav-item">
+        <router-link :to="{name:'Ball'}">
+          <span>小球弹入弹出动画</span>
+        </router-link>
+      </div>
+    </div>
+    <div id="navbar">
       <div class="nav-item">
         <router-link :to="{name:'Ball'}">Ball</router-link>
       </div>
-    </nav>
+    </div>
+    <div id="navbar">
+      <div class="nav-item">
+        <router-link :to="{name:'Ball'}">Ball</router-link>
+      </div>
+    </div>
+    <div id="navbar">
+      <div class="nav-item">
+        <router-link :to="{name:'Ball'}">Ball</router-link>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -17,12 +34,10 @@ export default {
 <style lang="stylus" scoped>
 .home {
   #navbar {
-    display flex
     width 100%
     height 56px
     background skyblue 
     color #ffffff
-    padding 0 10%
 
     .nav-item {
       height 100%
@@ -30,6 +45,7 @@ export default {
       font-size 1.5em
       font-weight 700
       padding 0 1em
+      text-align center
       
       a {
         color #ffffff
