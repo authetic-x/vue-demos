@@ -4,8 +4,13 @@ import router from "./router";
 import store from "./store";
 import '@/assets/styles/reset.css'
 import Back from '@/components/Back'
+import axios from 'axios'
+
+require('./mock')
 
 Vue.config.productionTip = false;
+
+Vue.prototype.$http = axios
 
 // 全局Back按钮
 Vue.component('Back', Back)

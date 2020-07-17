@@ -9,17 +9,22 @@
     </div>
     <div id="navbar">
       <div class="nav-item">
-        <router-link :to="{name:'Ball'}">Ball</router-link>
+        <router-link :to="{name:'LoginDemo'}">LoginDemo</router-link>
       </div>
     </div>
     <div id="navbar">
       <div class="nav-item">
-        <router-link :to="{name:'Ball'}">Ball</router-link>
+        <router-link :to="{name:'markdown'}">markdown编辑器</router-link>
       </div>
     </div>
     <div id="navbar">
       <div class="nav-item">
-        <router-link :to="{name:'Ball'}">Ball</router-link>
+        <router-link :to="{name:'githubCommit'}">查看github的commit记录</router-link>
+      </div>
+    </div>
+    <div id="navbar">
+      <div class="nav-item">
+        <router-link :to="{name:'treeView'}">递归组件</router-link>
       </div>
     </div>
   </div>
